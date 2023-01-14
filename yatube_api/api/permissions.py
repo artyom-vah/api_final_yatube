@@ -11,7 +11,8 @@ class IsAuthorOrReadOnly(permissions.BasePermission):
             return True
         return obj.author == request.user
 
-    # в случае если делаю так:
+    # в случае если делаю так(или вообще убираю has_object_permission):
     # def has_object_permission(self, request, view, obj):
     #     return obj.author == request.user
-    # то тесты сыпятся, не понимю как исправить
+    # то тесты сыпятся, не понимаю как исправить или что-то надо добавить во вьюсеты,
+    # уже всяко пробовал
