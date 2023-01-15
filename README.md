@@ -24,7 +24,7 @@
 
 ## 1) Склонировать репозиторий
 
-git clone https://github.com/artyom-vah/t
+git clone https://github.com/artyom-vah/api_final_yatube.git
 
 ## 2) Создать и активировать виртуальное окружение для проекта
 
